@@ -1,0 +1,70 @@
+body{
+    background:url(..//imagenes/iphone\ 15.jfif);
+    background-size:cover;
+    color: #fff;
+    
+
+    
+}
+
+
+
+form{
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #1668c4;
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    background: #1668c4;
+    color:#fff;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #4a88f4;
+    cursor: pointer;
+}
+
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-register button{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
